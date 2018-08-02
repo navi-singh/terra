@@ -1,0 +1,49 @@
+nav.navbar, .navbar-default {
+  background-color:#9cdfff !important;
+}
+
+.navbar-default {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  /* height: 100px; */
+}
+
+.navbar-default .navbar-nav > li > a > h2 {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: green;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+  color: white;
+  background-color: #dbdbdb;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  background-color: #25b4f7; 
+}
+/*.logo {
+  height: 100px;
+  width: 150px;
+} */
