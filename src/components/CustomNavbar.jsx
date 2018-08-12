@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Image, Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './CustomNavbar.css'
 
@@ -18,18 +18,10 @@ export default class CustomNavbar extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} componentClass={Link} href="/" to="/">
-              <h2>Home</h2>
-            </NavItem>
-            <NavItem eventKey={3} componentClass={Link} href="/services" to="/services">
-              <h2>Services</h2>
-            </NavItem>
-            <NavItem eventKey={3} componentClass={Link} href="/about" to="/about">
-              <h2>About Us</h2>
-            </NavItem>
-            <NavItem eventKey={3} componentClass={Link} href="/contact" to="/contact">
-              <h2>Contact us</h2>
-            </NavItem>
+            <NavItem eventKey={1} componentClass={Link} href="/" to="/">Home</NavItem>
+            <NavItem eventKey={3} componentClass={Link} href="/services" to="/services">Services</NavItem>
+            <NavItem eventKey={3} componentClass={Link} href="/about" to="/about">About Us</NavItem>
+            <NavItem eventKey={3} componentClass={Link} href="/contact" to="/contact">Contact us</NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

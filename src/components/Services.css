@@ -1,9 +1,11 @@
-.services {
-  margin-bottom: 2em;
+.subCol {
   border: 2px;
+  /* background: rgba(128, 128, 128, 0.4); */
+  align-content: center;
+  padding:15px;
 }
 
 .service-pic {
-  width: 300px;
-  height: 250px;
+  width: 250px;
+  height: 200px;
 }

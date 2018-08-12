@@ -1,12 +1,9 @@
 .jumbotron {
   margin-bottom: 4em;
+  background-color:transparent !important;
 }
 .person-wrapper {
   margin-bottom: 2em;
-}
-
-.profile-pic {
-  width: 50%;
 }
 
 .btn-primary {
@@ -18,4 +15,10 @@
 
 h3 {
   margin-bottom: 1em;
+}
+.homeContainer {
+  height: 100%;
+  width: wrap;
+  /* background-image: url('../assets/Web-Back.png'); */
+  /* background: rgba(128, 128, 128, 0.4); */
 }

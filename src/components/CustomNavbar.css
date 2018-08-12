@@ -1,16 +1,35 @@
 nav.navbar, .navbar-default {
-  background-color:#9cdfff !important;
+  /* background-color:transparent; */
+  margin-bottom: 0;
+  height: 100px;
+  background: rgba(70, 70, 70, 0.5);
 }
 
 .navbar-default {
   background-image: none;
   border: none;
   border-radius: 0;
-  /* height: 100px; */
 }
 
-.navbar-default .navbar-nav > li > a > h2 {
+.navbar-default .navbar-nav > li {
   color: white;
+  line-height: 60px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #c4c4c4;
+  font-size: 35px;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+  color:grey;
+  font-size: 30px;
 }
 
 .navbar-default .navbar-brand {
@@ -30,19 +49,10 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-  color: green;
+  /* color: green; */
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:focus {
-  color: white;
-  background-color: #dbdbdb;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: white;
-  background-color: #25b4f7; 
-}
 /*.logo {
   height: 100px;
   width: 150px;

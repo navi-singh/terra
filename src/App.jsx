@@ -14,14 +14,16 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
+        <div className="appContainer -webkit-fill-available">
           <Navbar />
+          <div className="bodyContainer">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route path="/contact" component={Contact} />
           <Route path="/service/templates" component={Template} />
           <Route path="/Iframe" component={IframeContainer} />
+          </div>
           <Footer />
         </div>
       </BrowserRouter>

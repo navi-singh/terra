@@ -1,0 +1,23 @@
+.appContainer{
+    height: 100%;
+    min-height: 1080px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('assets/Web-Back.png');
+    position: relative;
+ }
+p{
+    color:white;
+}
+.bodyContainer {
+    /* margin-top: 20px; */
+    padding: 20px;
+    padding-bottom: 60px;
+    max-width: 70%;
+    margin: auto;
+    background: rgba(70, 70, 70, 0.5);
+}
+h4, h3 {
+    color: white;
+}
