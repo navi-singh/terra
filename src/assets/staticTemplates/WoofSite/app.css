@@ -1,0 +1,31 @@
+body {
+	background-image: url("https://images.unsplash.com/photo-1421098518790-5a14be02b243?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=");
+	background-size: cover;
+	background-position: center;
+	font-family: Montserrat;
+	color: white;
+}
+
+html {
+	height: 100%;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid rgba(216, 206, 196, 0.67);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+h1, h3 {
+	text-shadow: 0 1px 4px rgba(216, 206, 196, 0.67);
+}

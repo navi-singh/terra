@@ -1,0 +1,23 @@
+iframe{
+  height:100%;
+  width:100%;
+  overflow: auto;
+}
+
+
+.navbar {
+	background-color: #0d2142;
+}
+
+.navbar-default .navbar-nav li a {
+	color: white;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.jumbotron {
+	color: #0d2142;
+	background-color: #dee6f2;
+}

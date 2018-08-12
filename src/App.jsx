@@ -7,6 +7,8 @@ import Services from './components/Services';
 import Navbar from './components/CustomNavbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Template from './components/templates/Template';
+import IframeContainer from './components/templates/IframeContainer';
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route path="/contact" component={Contact} />
+          <Route path="/service/templates" component={Template} />
+          <Route path="/Iframe" component={IframeContainer} />
           <Footer />
         </div>
       </BrowserRouter>

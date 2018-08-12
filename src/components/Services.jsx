@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import './Services.css';
 
@@ -15,7 +16,9 @@ export default class Services extends Component {
               <p>iOS and Android apps development.cfiehvuebrfuh wuefwufebuwf wudyweuyw bduwehduww dwuefbwub</p>
             </Col>
             <Col xs={12} sm={4} className="services">
-              <Image src={require('../assets/Web-Applications.png')} rounded className="service-pic" />
+            <Link to="/service/templates">
+            <Image src={require('../assets/Web-Applications.png')} rounded className="service-pic" />
+            </Link>
               <h3>Web Development</h3>
               <p>ewfjowejf weifjewoijf wefjwoiefjwe foiwejfowijfw oweifjwoejf woefjwoefn fweofi</p>
             </Col>
