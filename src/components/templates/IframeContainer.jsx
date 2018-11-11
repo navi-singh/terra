@@ -9,23 +9,23 @@ export default class IframeContainer extends Component {
 
     return (
       <div>
-      <nav classNameName="navbar navbar-default">
-        <div classNameName="container">
-          <div classNameName="navbar-header">
-            <button type="button" classNameName="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarItems" aria-expanded="false">
-              <span classNameName="sr-only">Toggle navigation</span>
-              <span classNameName="icon-bar"></span>
-              <span classNameName="icon-bar"></span>
-              <span classNameName="icon-bar"></span>
+      <nav className="navbar navbar-default">
+        <div className="container">
+          <div className="navbar-header">
+            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarItems" aria-expanded="false">
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
             </button>
-            <a classNameName="navbar-brand" href="#"><span classNameName="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
+            <a className="navbar-brand" href="#"><span className="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
           </div>
-          <div classNameName="collapse navbar-collapse" id="navbarItems">
-            <ul classNameName="nav navbar-nav">
+          <div className="collapse navbar-collapse" id="navbarItems">
+            <ul className="nav navbar-nav">
             	<li><a href="#">About</a></li>
             	<li><a href="#">Contact</a></li>
             </ul>
-            <ul classNameName="nav navbar-nav navbar-right">
+            <ul className="nav navbar-nav navbar-right">
             	<li><a href="#">Sign Up</a></li>
             	<li><a href="#">Login</a></li>
             </ul>

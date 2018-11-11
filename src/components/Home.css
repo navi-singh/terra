@@ -2,6 +2,11 @@
   margin-bottom: 4em;
   background-color:transparent !important;
 }
+
+.p{
+  text-align: left;
+}
+
 .person-wrapper {
   margin-bottom: 2em;
 }
@@ -11,6 +16,7 @@
   border: none;
   border-radius: 0;
   background-color: #2892D7;
+  width: 150px;
 }
 
 h3 {
@@ -18,7 +24,7 @@ h3 {
 }
 .homeContainer {
   height: 100%;
-  width: wrap;
-  /* background-image: url('../assets/Web-Back.png'); */
-  /* background: rgba(128, 128, 128, 0.4); */
+}
+.container {
+  width: auto;
 }

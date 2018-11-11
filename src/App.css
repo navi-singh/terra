@@ -11,13 +11,15 @@ p{
     color:white;
 }
 .bodyContainer {
-    /* margin-top: 20px; */
     padding: 20px;
     padding-bottom: 60px;
     max-width: 70%;
     margin: auto;
     background: rgba(70, 70, 70, 0.5);
 }
-h4, h3 {
+/* h4, h3 {
     color: white;
+} */
+.spacer{
+    min-height:100px;
 }

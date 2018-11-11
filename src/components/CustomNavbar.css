@@ -1,8 +1,7 @@
 nav.navbar, .navbar-default {
-  /* background-color:transparent; */
   margin-bottom: 0;
-  height: 100px;
-  background: rgba(70, 70, 70, 0.5);
+  height: 90px;
+  background: #666666;
 }
 
 .navbar-default {
@@ -23,14 +22,15 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #c4c4c4;
+  color: #cccccc;
   font-size: 35px;
 }
 
 .navbar-default .navbar-nav > li > a:focus {
   color:grey;
   font-size: 30px;
-}
+  background-color: #565656;
+} 
 
 .navbar-default .navbar-brand {
   color: white;
@@ -49,11 +49,11 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-  /* color: green; */
+  
   background-color: transparent;
 }
 
-/*.logo {
+/* .logo {
   height: 100px;
   width: 150px;
 } */
